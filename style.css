@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+}
+
+#container div {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+/* 1 med 3 div */
+/* #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} */
+/* 
+.div-3 {
+    align-self: center;
+} */
+
+/* 2 med 3 div */
+/* #container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* 3 med 3 div*/
+/* #container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+/* 1 med 1 div*/
+/* #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+} */
+
+/* 2 med 1 div*/
+/* #container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+} */
+
+/* 7 med 1 div*/
+/* #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10%;
+
+} */
+
+/* 7 med 1 div*/
+/* #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    padding-top: 10%;
+    padding-right: 10%;
+
+} */
+
+/* 2 med 3 div diagonalt*/
+/* ser ingen skillnad mot Arnars */
+/* #container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-1 {
+    align-self: end;
+}
+
+.div-2 {
+    align-self: center;
+} */
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: end; */
+}
+
+.div-3 {
+    /* funkar konstigt inser även Arnar */
+    flex: 4 0;
+}
